@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    
+
+}
+h1{
+    margin: 50px auto 0 auto;
+    /* for fonts 16px = 100% = 1em so for 90px 90/16 = 565.5*/
+    /*font-size: 90px;* same as below/
+    /*font-size: 565.5%; same as below*/
+    font-size: 5.65rem;
+    /*add "rem" for child components so that they wont get disturbed by the parent values when we change.
+    -- use "rem" for the texts --*/
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 1;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    line-height: 1;
+    
+
+}
+
+a{
+    color: #11999E;
+    margin:0 10px 0 10px;
+    text-decoration: none;
+}
+
+.skill-row{
+    width: 50%;
+    height: auto;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}
+
+.codes{
+    width: 20%;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+
+hr{
+    border-style:none;
+    border-top-style: dotted;
+    width:5%;
+    border-color:black;
+    border-width: 5px;
+    margin-bottom: 80px;
+}
+
+.top-cloud{
+    position: absolute;;
+    right: 300px;
+    top:50px;
+
+}
+
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+}
+
+.contact-me{
+    margin-top: 90px;
+}
+.top-container{
+    background-color: rgb(207, 243, 250);
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container{
+    
+    
+
+}
+
+.bottom-container{
+background-color: rgb(207, 243, 250);
+color:#66bfbf;
+height:120px;
+padding-top: 4rem;
+
+}
+
+p{
+    margin:30px 0 50px 0;
+}
+
+button{
+    margin:30px 90px 90px 90px;
+    background-color: #eaf6f6;
+    padding:12px;
+    color:#66bfbf;
+    border-style: none;
+    border-radius: 20px;
+}
+
+span{
+    color:#a8df65;
+}
+
+.profile{
+    margin-top:100px;
+}
